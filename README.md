@@ -1,38 +1,36 @@
-# _printf 
- ## The c standard printf function clone 
- # _printf 
- --- 
+# \_printf 
+### The c standard printf function clone 
  --- 
   
- ## NAME 
-         _printf - formats and prints data, with the ability to call certain 
+## NAME 
+         \_printf - formats and prints data, with the ability to call certain 
          conversion characters 
   
- ## SYNOPSIS 
-         _printf FORMAT [ARGUMENT]... 
+## SYNOPSIS 
+         \_printf FORMAT [ARGUMENT]... 
   
- ## DESCRIPTION 
+## DESCRIPTION 
          Prints ARGUMENT(s) according to FORMAT 
          FORMAT controls the output of the function interpreting the following 
          special sequences as: 
   
- - %c: Character 
- - %s: String 
- - %d: Decimal integer 
- - %i: Integer 
- - %u: Unsigned integer 
- - %b: Binary integer 
- - %h: Hexidecimal integer with lower case a-f digits 
- - %H: Hexidecimal integer with upper case A-F digits 
- - %o: Octal integer (unsigned) 
- - %p: Address in hexidecimal 
- - %%: Prints '%' normally 
+- %c: Character 
+- %s: String 
+- %d: Decimal integer 
+- %i: Integer 
+- %u: Unsigned integer 
+- %b: Binary integer 
+- %h: Hexidecimal integer with lower case a-f digits 
+- %H: Hexidecimal integer with upper case A-F digits 
+- %o: Octal integer (unsigned) 
+- %p: Address in hexidecimal 
+- %%: Prints '%' normally 
   
  Otherwise, the command simply prints whatever string is directly written into it 
  within double quotation marks. 
   
- ## EXAMPLE 
- `` 
+## EXAMPLE 
+ ```
  #include <limits.h> 
  #include <stdio.h> 
  #include "main.h" 
@@ -77,11 +75,13 @@
      printf("Unknown:[%r]\n"); 
      return (0); 
  } 
- `` 
- compile using the code: gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.c 
+ ```
+<br>
+ compile using the code: gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format \*.c 
+<br>
  run:  ./printf 
   
- ## Result: 
+## Result: 
   
  Let's try to printf a simple sentence. 
  Let's try to printf a simple sentence. 
@@ -108,11 +108,11 @@
  Unknown:[%r] 
  Unknown:[%r] 
   
- ## FOR MORE INFO, see 
+## FOR MORE INFO, see 
          man_3_printf 
   
- ## AUTHOR 
+## AUTHOR 
          Written by Henry Kanu && Nneeh Daniel 
   
- ## GIT REPO 
+## GIT REPO 
              https://github.com/stan545/printf.git
