@@ -1,11 +1,11 @@
-# \_printf 
+# \_printf
 ### The c standard printf function clone 
- --- 
-  
+--- 
+
 ## NAME 
          \_printf - formats and prints data, with the ability to call certain 
          conversion characters 
-  
+
 ## SYNOPSIS 
          \_printf FORMAT [ARGUMENT]... 
   
