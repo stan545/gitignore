@@ -3,11 +3,11 @@
 --- 
 
 ## NAME 
-         \_printf - formats and prints data, with the ability to call certain 
+         _printf - formats and prints data, with the ability to call certain 
          conversion characters 
 
-## SYNOPSIS 
-         \_printf FORMAT [ARGUMENT]... 
+## SYNOPSIS
+         _printf FORMAT [ARGUMENT]... 
   
 ## DESCRIPTION 
          Prints ARGUMENT(s) according to FORMAT 
@@ -77,7 +77,7 @@
  } 
  ```
 <br>
- compile using the code: gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format \*.c 
+ compile using the code: gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.c 
 <br>
  run:  ./printf 
   
